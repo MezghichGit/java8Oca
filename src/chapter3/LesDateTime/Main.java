@@ -72,7 +72,8 @@ public class Main {
 		DateTimeFormatter f = DateTimeFormatter.ofPattern("dd/MM/yyyy, HH:mm");
 		LocalDateTime d = LocalDateTime.parse(birthday,f);
 		System.out.println(d);
-
-	}
+		
+		System.out.println("Fin chapitre 3");
+		}
 
 }
